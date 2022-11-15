@@ -16,42 +16,82 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/1be0380ff8.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1be0380ff8.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>form</title>
   </head>
   <body>
     <div class="container">
-      <div class="inner">
-        <h3>USER PROFILE</h3>
-        <form class="flex-form">
-          <div class="flex-container1">
-            <label for="name" id="new">Full Name</label><br />
-            <i class="fa fa-user icon"></i>
-            <input type="text" id="text" name="fname"/><br />
-            <label for="name" id="new">Email ID</label><br />
-             <i class="fa fa-envelope icon"></i>
-            <input type="text" id="text" name="lname"/><br />
-            <label for="name" id="new">Specialization</label><br />
-            <i class="fa fa-spell-check icon"></i>
-            <input type="text" id="text" name="fname" /><br />
-          </div>
-          <div class="flex-container2">
-            <label for="name" id="new">Education Level</label><br />
-            <i class="fa fa-pen icon"></i>
-            <input type="text" id="text" name="lname" /><br />
-            <label for="name" id="new">Phone Number</label><br />
-            <i class="fa fa-mobile icon"></i>
-            <input type="text" id="text" name="fname"/><br />
-            <label for="name">Date of Birth</label><br />
-            <input type="date" id="text" name="lname"/>
-          </div>
-        </form>
-        <footer>
-          <p>You must fill all fields, to be able to continue</p>
-          <button>NEXT</button>
-        </footer>
-      </div>
+      <h3>USER PROFILE</h3>
+      <form class="flex-form">
+        <div class="flex-container1">
+          <label for="name" id="new">Full Name</label><br />
+          <i class="fa fa-user icon"></i>
+          <input type="text" id="text" name="fname" /><br />
+          <label for="name" id="new">Email ID</label><br />
+          <i class="fa fa-envelope icon"></i>
+          <input type="text" id="text" name="lname" /><br />
+          <label for="name" id="new">Specialization</label><br />
+          <i class="fa fa-spell-check icon"></i>
+          <input type="text" id="text" name="fname" /><br />
+        </div>
+        <div class="flex-container2">
+          <label for="name" id="new">Education Level</label><br />
+          <i class="fa fa-pen icon"></i>
+          <input type="text" id="text" name="lname" /><br />
+          <label for="name" id="new">Phone Number</label><br />
+          <i class="fa fa-mobile icon"></i>
+          <input type="text" id="text" name="fname" /><br />
+          <label for="name">Date of Birth</label><br />
+          <input type="date" id="text" name="lname" />
+        </div>
+      </form>
+      <footer>
+        <p>You must fill all fields, to be able to continue</p>
+        <button id="next">NEXT</button>
+      </footer>
     </div>
+
+    <div class="container2">
+      <h3>RESIDENTIAL ADDRESS</h3>
+      <form class="flex-form">
+        <div class="flex-container1">
+          <label for="name" id="new">Country</label><br />
+          <i class="fa fa-user icon"></i>
+          <input
+            type="text"
+            id="text"
+            name="fname"
+            placeholder="United States"
+          /><br />
+          <label for="name" id="new">Apartment</label><br />
+          <i class="fab fa-house icon"></i>
+          <input type="text" id="text" name="lname" /><br />
+          <label for="name" id="new">County</label><br />
+          <i class="fa fa-location-dot icon"></i>
+          <input type="text" id="text" name="fname" /><br />
+        </div>
+        <div class="flex-container2">
+          <label for="name" id="new">Street ADDRESS</label><br />
+          <i class="fa fa-location-dot icon"></i>
+          <input type="text" id="text" name="lname" /><br />
+          <label for="name" id="new">Town / City</label><br />
+          <i class="fafa-location-dot icon"></i>
+          <input type="text" id="text" name="fname" /><br />
+          <label for="name">Postcode / Zip</label><br />
+          <i class="fa fa-eye icon"></i>
+          <input type="text" id="text" name="lname" />
+        </div>
+      </form>
+      <footer>
+        <button id="back">BACK</button>
+        <button id="next">NEXT</button>
+      </footer>
+    </div>
+    <script src="code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

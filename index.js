@@ -1,0 +1,1 @@
+let currentForm = 0;
